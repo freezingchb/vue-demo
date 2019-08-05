@@ -1,0 +1,140 @@
+.login {
+  background: url(../assets/login/bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 1.62rem 0 1.33rem;
+  font-size: 0;
+
+  .login-box {
+    margin: 0 auto;
+    width: 12.96rem;
+    height: 7.11rem;
+    background: url(../assets/login/tk.png) no-repeat center center;
+    background-size: cover;
+
+    .lg-left {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+
+      .logo {
+        margin: 1.3rem 0 0 1.74rem;
+        width: 3.96rem;
+        height: auto;
+      }
+
+      .qr {
+        margin: .42rem 0 0 2.91rem;
+        padding: .1rem;
+        border-radius: .04rem;
+        border: 1px solid #fff;
+        width: 1.34rem;
+        height: auto;
+      }
+
+      .jump-list {
+        padding: .93rem 0 0 1.69rem;
+
+        .jump-li {
+          display: inline-block;
+          vertical-align: top;
+          font-size: .18rem;
+          line-height: .24rem;
+          color: #fff;
+          padding: 0 .3rem;
+          cursor: pointer;
+        }
+
+        .jump-li:nth-child(2) {
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+        }
+      }
+    }
+
+    .lg-right {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 1.5rem;
+      padding-left: .68rem;
+      box-sizing: border-box;
+
+      .username,
+      .password {
+        display: block;
+        width: 4.48rem;
+        height: .6rem;
+        box-sizing: border-box;
+        padding-left: .53rem;
+        line-height: auto;
+        color: #606971;
+        font-size: .18rem;
+        border: 1px solid #7E828F;
+        border-radius: .04rem;
+        margin-bottom: .3rem;
+      }
+
+      .username {
+        background: url(../assets/login/1.png) no-repeat .12rem center;
+        background-size: .28rem auto;
+      }
+
+      .password {
+        background: url(../assets/login/2.png) no-repeat .12rem center;
+        background-size: .28rem auto;
+      }
+
+      .rule-box {
+        img {
+          width: .19rem;
+          height: auto;
+          margin: -.12rem .09rem 0 0;
+          cursor: pointer;
+        }
+
+        span {
+          font-size: .18rem;
+          color: #7E828F;
+        }
+
+        i {
+          font-size: .18rem;
+          color: #FFA218;
+        }
+      }
+
+      .enter {
+        margin-top: .58rem;
+        width: 4.48rem;
+        height: .6rem;
+        text-align: center;
+        line-height: .6rem;
+        font-size: .24rem;
+        color: #fff;
+        background: #FFA218;
+        border-radius: .04rem;
+        box-shadow: 0rem 0.09rem 0.35rem 0rem rgba(121, 78, 0, 0.33);
+        cursor: pointer;
+
+        img {
+          width: .15rem;
+          margin: 0 0 0 .17rem;
+        }
+      }
+
+      .regist {
+        display: inline-block;
+        font-size: .18rem;
+        line-height: .18rem;
+        color: #7E828F;
+        border-bottom: 1px solid #7E828F;
+        margin: .62rem 0 0 1.59rem;
+        cursor: pointer;
+
+        span {
+          color: #FFA218;
+        }
+      }
+    }
+  }
+}

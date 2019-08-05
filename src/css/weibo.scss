@@ -1,0 +1,334 @@
+.weibo {
+  font-size: 0;
+  background: #f6f7fb;
+
+  .banner {
+    height: 4.2rem;
+    background: url(../assets/weibo/banner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+    .tit {
+      font-size: 0.75rem;
+      padding-top: 1.1rem;
+      line-height: 0.75rem;
+      font-weight: bold;
+    }
+
+    .desc {
+      font-size: 0.33rem;
+      line-height: 0.48rem;
+      white-space: pre-line;
+      padding-top: 0.28rem;
+    }
+  }
+
+  .tit {
+    text-align: center;
+
+    .txt {
+      font-size: 0.3rem;
+      line-height: 0.34rem;
+      color: #31384e;
+      font-weight: bold;
+    }
+
+    .bottom {
+      margin: 0.2rem auto 0;
+      height: 0.04rem;
+      width: 0.8rem;
+      background: #31384e;
+    }
+  }
+
+  .extent {
+    padding: .8rem 0 1.39rem;
+    text-align: center;
+    background: #fff;
+
+    .ex-tip {
+      padding-top: .57rem;
+      font-size: .2rem;
+      color: #31384E;
+      white-space: pre-line;
+    }
+
+    img {
+      margin-top: .92rem;
+      width: 10.87rem;
+      height: auto;
+    }
+  }
+
+  .more {
+    padding: 1.2rem 0 0;
+    height: 8.75rem;
+    text-align: center;
+    background: url(../assets/weibo/01-min.png) no-repeat center content-box;
+    background-size: auto 8.75rem;
+
+    img {
+      width: auto;
+    }
+
+    dl {
+      margin: 0 auto;
+      width: 6.08rem;
+      text-align: left;
+      padding-top: 1.67rem;
+      -webkit-transform: translateX(-2.226rem);
+      transform: translateX(-2.26rem);
+
+      dt {
+        font-size: 0.3rem;
+        font-weight: bold;
+        line-height: 0.42rem;
+        color: #262b40;
+        padding-right: 0.38rem;
+        text-align: justify;
+        text-justify: inter-ideograph;
+      }
+
+      .em {
+        padding-top: 0.89rem;
+        font-size: 0.24rem;
+        line-height: 0.44rem;
+        color: #262b40;
+        text-align: left;
+        font-weight: bold;
+        white-space: pre-line;
+      }
+    }
+  }
+
+  .all {
+    padding: 0.86rem 0 1.48rem;
+    background: #fff;
+
+    .all-tit-tip {
+      padding-top: 0.19rem;
+      font-size: 0.18rem;
+      color: #7e828f;
+      line-height: 0.18rem;
+      text-align: center;
+    }
+
+    .all-list {
+      width: 12.3rem;
+      margin: 0.77rem auto 0;
+
+      .all-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 2.16rem;
+        height: 3.48rem;
+        box-sizing: border-box;
+        margin: 0 0.15rem;
+        border: 0.02rem solid #31384e;
+        text-align: center;
+        border-radius: 0.04rem;
+        box-shadow: 0 0.24rem 0.51rem 0 rgba(182, 185, 197, 0.28);
+
+        .img {
+          width: 0.6rem;
+          margin: 0.25rem auto 0;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+
+          img.active {
+            display: none;
+          }
+        }
+
+        .tit {
+          padding-top: 0.24rem;
+          font-size: 0.2rem;
+          line-height: 0.28rem;
+          color: #31384e;
+          font-weight: bold;
+        }
+
+        .desc {
+          font-size: 0.17rem;
+          line-height: 0.24rem;
+          padding: 0.2rem 0.18rem 0;
+          color: #31384e;
+          text-align: center;
+          white-space: pre-line;
+          word-break: break-all;
+          text-align: justify;
+          text-justify: inter-ideograph;
+        }
+      }
+
+      .all-item:hover {
+        background: #ffa218;
+        box-shadow: 0 0.24rem 0.51rem 0 rgba(255, 162, 24, 0.28);
+        border: none;
+        padding: 0.02rem;
+
+        .img {
+          img {
+            display: none;
+          }
+
+          img.active {
+            display: inline-block;
+          }
+        }
+
+        .tit {
+          color: #fff;
+        }
+
+        .desc {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .excellence {
+    padding: .86rem 0 1.07rem;
+    background: #262B40;
+
+    .tit {
+      .txt {
+        color: #fff;
+      }
+
+      .bottom {
+        background: #fff;
+      }
+    }
+
+    .intro-list {
+      width: 12.3rem;
+      margin: 1.03rem auto 0;
+
+      .intro-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 2.82rem;
+        height: 3.81rem;
+        margin: 0 0.125rem;
+        text-align: center;
+        background: #fff;
+        border-radius: 0.04rem;
+        cursor: pointer;
+
+        .img {
+          border-radius: 0.5rem;
+          width: 0.95rem;
+          height: 0.95rem;
+          margin: 0.37rem auto 0;
+          background: #ffe1b5;
+
+          img {
+            width: 0.54rem;
+            height: auto;
+            margin-top: 0.2rem;
+          }
+
+          img.active {
+            display: none;
+            margin-top: 0.2rem;
+          }
+        }
+
+        .tit {
+          padding-top: 0.46rem;
+          font-size: 0.24rem;
+          line-height: 0.28rem;
+          color: #31384e;
+          font-weight: bold;
+        }
+
+        .desc {
+          font-size: 0.17rem;
+          line-height: 0.24rem;
+          padding: 0.28rem 0.18rem 0;
+          color: #7e828f;
+          text-align: justify;
+          text-justify: inter-ideograph;
+          word-break: break-all;
+        }
+      }
+
+      .intro-item:hover {
+        .img {
+          background: #ffa218;
+          box-shadow: 0px 24px 24px 0px rgba(255, 162, 24, 0.22);
+
+          img {
+            display: none;
+          }
+
+          img.active {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .together {
+    padding-top: .9rem;
+
+    .tab {
+      border-bottom: 2px solid #c8cddb;
+      text-align: center;
+      padding-top: 0.4rem;
+      height: 0.73rem;
+
+      .item {
+        display: inline-block;
+        vertical-align: top;
+        width: 2.14rem;
+        height: 0.7rem;
+        line-height: .7rem;
+        font-size: 0.24rem;
+        border-bottom: 0.05rem solid transparent;
+        color: #7e828f;
+        margin: 0 0.7rem;
+        position: relative;
+        z-index: 1;
+      }
+
+      .item.active {
+        color: #ffa218;
+        border-bottom-color: #ffa218;
+      }
+    }
+  }
+
+  .panel {
+    .panel-txt {
+      text-align: center;
+      margin: 0 auto;
+      font-size: .24rem;
+      padding-top: .67rem;
+      white-space: pre-line;
+      color: #31384E;
+      line-height: .36rem;
+
+      img {
+        width: 10rem;
+        height: auto;
+        padding-bottom: 1rem;
+      }
+    }
+
+    .panel-txt:last-child {
+      img {
+        width: 6rem;
+        height: auto;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

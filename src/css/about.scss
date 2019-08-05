@@ -1,0 +1,324 @@
+.about {
+  font-size: 0;
+  background: #f6f7fb;
+
+  .banner {
+    height: 4.2rem;
+    background: url(../assets/about/banner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+    .tit {
+      font-size: 0.75rem;
+      padding-top: 1.1rem;
+      line-height: 0.75rem;
+      font-weight: bold;
+    }
+
+    .desc {
+      font-size: 0.27rem;
+      line-height: 0.32rem;
+      white-space: pre-line;
+      padding-top: 0.28rem;
+    }
+  }
+
+  .tit {
+    text-align: center;
+
+    .txt {
+      font-size: 0.3rem;
+      line-height: 0.34rem;
+      color: #31384e;
+      font-weight: bold;
+    }
+
+    .bottom {
+      margin: 0.2rem auto 0;
+      height: 0.04rem;
+      width: 0.8rem;
+      background: #31384e;
+    }
+  }
+
+  .intro {
+    padding: .86rem 0 1.33rem;
+    background: #fff;
+
+    .intro-txt {
+      margin: .83rem auto 0;
+      text-align: left;
+      width: 11.85rem;
+      font-size: .2rem;
+      line-height: .42rem;
+      white-space: pre-line;
+      color: #262B40;
+    }
+
+    .intro-img {
+      margin: .39rem auto 0;
+      width: 12.02rem;
+      height: 2.76rem;
+      background: url(../assets/about/1-min.png) no-repeat center center;
+      background-size: cover;
+    }
+
+    .area-list {
+      width: 12.2rem;
+      margin: 0 auto;
+
+      .area-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 3.88rem;
+        height: 2.54rem;
+        background: #ecf0f9;
+        border-radius: 0.04rem;
+        margin: 1.36rem 0.085rem 0;
+        text-align: center;
+
+        .area-img {
+          margin: 0 auto;
+          width: 1.3rem;
+          height: 1.3rem;
+          margin-top: -0.76rem;
+          border-radius: 0.7rem;
+          background: #ffa218;
+
+          img {
+            width: 0.7rem;
+            height: auto;
+            margin-top: 0.25rem;
+          }
+        }
+
+        .area-tit {
+          font-size: 0.24rem;
+          font-weight: bold;
+          padding-top: 0.5rem;
+          line-height: 0.33rem;
+          color: #31384e;
+        }
+
+        .area-tip {
+          padding-top: 0.36rem;
+          font-size: 0.19rem;
+          color: #7E828F;
+          line-height: 0.24rem;
+          white-space: pre-line;
+        }
+      }
+
+      .area-item:hover {
+        background: #fff;
+        box-shadow: 0 0.43rem 1.06rem 0 rgba(182, 185, 197, 0.28);
+
+        .area-img {
+          box-shadow: 0 0.15rem 0.35rem 0 rgba(255, 162, 24, 0.59);
+        }
+      }
+    }
+  }
+
+  .culture {
+    padding-top: .94rem;
+    text-align: center;
+
+    .header {
+      margin: 0 auto;
+      padding-top: 3.28rem;
+      width: 12rem;
+      height: .93rem;
+      background: url(../assets/about/3-min.png) no-repeat center center;
+      background-size: cover;
+
+      p {
+        color: #fff;
+        font-size: .24rem;
+        line-height: .93rem;
+        text-align: center;
+        font-weight: bold;
+        background: rgba(255, 162, 24, .9);
+      }
+    }
+
+    .mission-list {
+      display: inline-block;
+      padding-top: .6rem;
+
+      .mission {
+        display: inline-block;
+        vertical-align: top;
+        width: 5.58rem;
+        height: 2.36rem;
+        background: #ECF0F9;
+        border-radius: .04rem;
+        margin: 0 .22rem;
+
+        .miss-tit {
+          padding: .3rem 0 0 .3rem;
+          text-align: left;
+
+          img {
+            width: auto;
+            height: .54rem;
+            margin: -.24rem .24rem 0 0;
+          }
+
+          span {
+            font-size: .28rem;
+            color: #31384e;
+            line-height: .34rem;
+            font-weight: bold;
+          }
+        }
+
+        .desc {
+          padding: .36rem .26rem 0;
+          font-size: .18rem;
+          line-height: .3rem;
+          color: #7E828F;
+          text-align: left;
+        }
+      }
+
+      .mission:hover {
+        background: #fff;
+        box-shadow: 0 .43rem 1.06rem 0 rgba(182, 185, 197, 0.28);
+      }
+    }
+  }
+
+  .team {
+    padding: .84rem 0 0 0;
+    text-align: center;
+
+    .team-list {
+      display: inline-block;
+      padding-top: .79rem;
+
+      .team-item {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 .09rem;
+        border-radius: .01rem;
+
+        img {
+          width: 3.88rem;
+          height: 3.04rem;
+        }
+      }
+    }
+  }
+
+  .server {
+    padding: .86rem 0 1.03rem;
+
+    .server-list {
+      width: 12.2rem;
+      margin: 0.96rem auto 0;
+
+      .server-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 3.88rem;
+        height: 5.14rem;
+        background-color: #fff;
+        border-radius: 0.04rem;
+        margin: 0 0.085rem;
+        text-align: center;
+        box-shadow: 0 .16rem .65rem 0 rgba(182, 185, 197, 0.28);
+
+        .server-img {
+          margin: 0 auto;
+          width: 1.48rem;
+          height: 1.48rem;
+          margin-top: 0.55rem;
+          border-radius: 0.2rem;
+          background: #fff2df;
+
+          img {
+            width: 0.93rem;
+            height: auto;
+            margin-top: 0.28rem;
+          }
+        }
+
+        .server-tit {
+          font-size: 0.24rem;
+          font-weight: bold;
+          padding-top: 0.59rem;
+          line-height: 0.34rem;
+          color: #31384e;
+        }
+
+        .server-desc {
+          font-size: 0.18rem;
+          line-height: 0.3rem;
+          color: #7e828f;
+          padding: 0.31rem 0.36rem 0;
+          word-break: break-all;
+          text-align: justify;
+          text-justify: inter-ideograph;
+        }
+      }
+
+      .server-item:hover {
+        background: #FCA31F;
+        box-shadow: 0 .16rem .65rem 0 rgba(252, 163, 31, 0.2);
+
+        .server-tit {
+          color: #fff;
+        }
+
+        .server-desc {
+          color: #fff;
+        }
+
+      }
+    }
+  }
+
+  .join {
+    padding: .9rem 0 .6rem;
+    background: #FCA31F;
+    text-align: center;
+
+    .j-tit {
+      font-size: .28rem;
+      line-height: .5rem;
+      color: #262B40;
+      font-weight: bold;
+    }
+
+    .j-desc {
+      font-size: .18rem;
+      line-height: .25rem;
+      color: #262B40;
+      padding: .36rem 0 0;
+    }
+
+    .join-btn {
+      margin: 0.67rem auto 0;
+      width: 4.13rem;
+      height: 0.76rem;
+      color: #fff;
+      font-size: 0.24rem;
+      font-weight: bold;
+      background: #262B40;
+      border-radius: 0.04rem;
+      line-height: 0.72rem;
+      box-shadow: 0rem 0.2rem 0.35rem 0rem rgba(255, 162, 24, 0.23);
+      text-align: center;
+      cursor: pointer;
+
+      img {
+        height: 0.2rem;
+        width: auto;
+        margin-left: 0.12rem;
+        margin-top: -0.05rem;
+      }
+    }
+  }
+}

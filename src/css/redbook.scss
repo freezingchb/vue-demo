@@ -1,0 +1,284 @@
+.redbook {
+  font-size: 0;
+  background: #f6f7fb;
+
+  .banner {
+    height: 4.2rem;
+    background: url(../assets/redbook/banner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    .tit {
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding-top: 1.16rem;
+      line-height: 0.75rem;
+      width: 11rem;
+      margin: 0 auto;
+    }
+
+    .desc {
+      margin: 0 auto;
+      font-size: 0.27rem;
+      line-height: 0.36rem;
+      white-space: pre-line;
+      padding-top: 0.3rem;
+      width: 11rem;
+    }
+  }
+  .tit {
+    text-align: center;
+
+    .txt {
+      font-size: 0.3rem;
+      line-height: 0.34rem;
+      color: #31384e;
+      font-weight: bold;
+    }
+
+    .bottom {
+      margin: 0.2rem auto 0;
+      height: 0.04rem;
+      width: 0.8rem;
+      background: #31384e;
+    }
+  }
+  .outlook {
+    padding: 0.46rem 0 1.87rem;
+    text-align: center;
+    .outlook-tit-tip {
+      font-size: 0.2rem;
+      color: #374046;
+      padding-top: 0.6rem;
+      white-space: pre-line;
+      line-height: 0.36rem;
+    }
+    .outlook-list {
+      width: 12.2rem;
+      margin: 0 auto;
+
+      .outlook-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 3.88rem;
+        height: 2.16rem;
+        background: #ecf0f9;
+        border-radius: 0.04rem;
+        margin: 1.36rem 0.085rem 0;
+        text-align: center;
+
+        .outlook-img {
+          margin: 0 auto;
+          width: 1rem;
+          height: 1rem;
+          margin-top: -0.6rem;
+          border-radius: 0.7rem;
+          background: #ffa218;
+
+          img {
+            width: 0.7rem;
+            height: auto;
+            margin-top: 0.15rem;
+          }
+        }
+
+        .outlook-tit {
+          font-size: 0.3rem;
+          font-weight: bold;
+          padding-top: 0.36rem;
+          line-height: 0.3rem;
+          color: #31384e;
+        }
+        .outlook-tip {
+          padding-top: 0.2rem;
+          font-size: 0.2rem;
+          color: #374046;
+          line-height: 0.2rem;
+          white-space: pre-line;
+        }
+      }
+
+      .outlook-item:hover {
+        background: #fff;
+        box-shadow: 0 0.43rem 1.06rem 0 rgba(182, 185, 197, 0.28);
+
+        .outlook-img {
+          box-shadow: 0 0.15rem 0.35rem 0 rgba(255, 162, 24, 0.59);
+        }
+      }
+    }
+  }
+  .tactics {
+    padding: .86rem 0 1.32rem;
+    background: #fff;
+    text-align: center;
+    .tactics-tit-tip {
+      font-size: 0.2rem;
+      color: #374046;
+      line-height: 0.36rem;
+      padding-top: 0.6rem;
+      white-space: pre-line;
+    }
+    img {
+      padding-top: 0.92rem;
+      width: 9.69rem;
+      height: auto;
+    }
+  }
+  .intro {
+    padding: 0.85rem 0 1.27rem;
+    background: url(../assets/wechat/04-min.png) no-repeat center center;
+    background-size: cover;
+    .tit {
+      .txt {
+        color: #fff;
+      }
+      .bottom {
+        background: #fff;
+      }
+    }
+    .intro-list {
+      width: 12.3rem;
+      margin: 1.03rem auto 0;
+
+      .intro-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 2.82rem;
+        height: 3.91rem;
+        margin: 0 0.125rem;
+        text-align: center;
+        background: #fff;
+        border-radius: 0.04rem;
+        cursor: pointer;
+        .img {
+          border-radius: 0.5rem;
+          width: 0.95rem;
+          height: 0.95rem;
+          margin: 0.37rem auto 0;
+          background: #ffe1b5;
+
+          img {
+            width: 0.54rem;
+            height: auto;
+            margin-top: 0.2rem;
+          }
+
+          img.active {
+            display: none;
+            margin-top: 0.2rem;
+          }
+        }
+
+        .tit {
+          padding-top: 0.47rem;
+          font-size: 0.24rem;
+          line-height: 0.28rem;
+          color: #31384e;
+          font-weight: bold;
+        }
+
+        .desc {
+          font-size: 0.18rem;
+          line-height: 0.26rem;
+          padding: 0.24rem 0.15rem 0;
+          color: #7e828f;
+          white-space: pre-line;
+          word-break: break-all;
+        }
+      }
+
+      .intro-item:hover {
+        .img {
+          background: #ffa218;
+          box-shadow: 0px 24px 24px 0px rgba(255, 162, 24, 0.22);
+
+          img {
+            display: none;
+          }
+
+          img.active {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  .example {
+    padding: 1.11rem 0 1.15rem;
+    background: #fff;
+    .example-list {
+      width: 14.2rem;
+      margin: 0 auto;
+      padding-top: 1.02rem;
+      .ex-img {
+        display: inline-block;
+        vertical-align: top;
+        width: 4.42rem;
+        height: auto;
+      }
+      .ex-items {
+        display: inline-block;
+        vertical-align: top;
+        width: 9.6rem;
+        padding-top: 0.94rem;
+        padding-left: 0.14rem;
+        .ex {
+          display: inline-block;
+          vertical-align: top;
+          width: 4.8rem;
+          height: 2.8rem;
+          .ex-tit {
+            padding-bottom: 0.3rem;
+            img {
+              width: 0.44rem;
+              height: auto;
+              vertical-align: -0.12rem;
+            }
+            span {
+              font-size: 0.28rem;
+              line-height: 0.34rem;
+              color: #31384e;
+              font-weight: bold;
+              margin-left: 0.12rem;
+            }
+          }
+          .ex-content-img-t {
+            height: 1.08rem;
+            width: auto;
+          }
+          .ex-content-img-result {
+            height: 0.98rem;
+            width: auto;
+          }
+          .ex-txt {
+            font-size: 0.18rem;
+            color: #7e828f;
+            line-height: 0.32rem;
+            white-space: pre-line;
+          }
+        }
+      }
+    }
+    .join-btn {
+      text-align: center;
+      margin: 0.99rem auto 0;
+      width: 4.13rem;
+      height: 0.76rem;
+      color: #fff;
+      font-size: 0.24rem;
+      font-weight: bold;
+      background: #ffa218;
+      border-radius: 0.04rem;
+      line-height: 0.72rem;
+      box-shadow: 0rem 0.2rem 0.35rem 0rem rgba(255, 162, 24, 0.23);
+      cursor: pointer;
+      img {
+        height: 0.2rem;
+        width: auto;
+        margin-left: 0.12rem;
+        margin-top: -0.05rem;
+      }
+    }
+  }
+}
