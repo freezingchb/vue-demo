@@ -11,7 +11,7 @@
             <input type="text" placeholder="您的邮箱" v-model="email" />
             <p class="order" @click="addEmail()">订阅期刊</p>
           </div>
-          <p class="tip">增值电信业务经营许可证 沪B2-20180435</p>
+          <p class="tip">闽ICP备18007320号-3© Copyright 2015-2025 厦门闽烽网络科技有限公司 版权所有</p>
         </li>
         <li class="footer-center">
           <ul class="footer-nav">

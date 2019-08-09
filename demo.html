@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>vue-组件</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<style>
+		.active {color:red}
+	</style>
+</head>
+<body>
+	<div id="app">
+    <custom-ul :list="cities" :value="city" @input="val => {city = val}"></custom-ul>
+    <paginate total="21" :page-current="pageCurrent" page-size="20" @page-click="pageClick"></paginate>
+  </div>
+	
+	<script>
+		Vue.component('custom-ul', {
+			props: ['list', 'value'],
+			methods: {
+				renderItem: function (id) {
+          this.$emit('input', id)
+				}
+			},
+			template: `<ul>
+			  <li :class="{active: item.id === value}" @click="renderItem(item.id)" v-for="item in list">{{item.name}}</li>
+			</ul>`
+		});
+		Vue.component('paginate', {
+			props: {
+        total: {},
+        pageCurrent: {default: 1},
+        pageSize: {default: 20}
+      },
+      data: function() {
+        return {
+          pageNums: []
+        }
+      },
+			methods: {
+				pageChange: function (page) {
+          this.$emit('page-click', page)
+          this.render(page)
+				},
+        render: function(p) {
+          this.pageNums = [];
+          p = parseInt(p);
+          let pageLast = Math.ceil(parseInt(this.total) / this.pageSize);
+          let pageStart = p - 3;
+          let pageEnd = p + 3;
+
+          if (this.total == 0 || pageLast <= 1)
+            return;
+          if (p > 1) {
+            this.pageNums.push({name: '«', num : 1});
+            this.pageNums.push({name: '‹', num : p - 1});
+          }
+
+          pageEnd = pageStart < 1 ? pageEnd + 1 - pageStart : pageEnd;
+          pageStart = pageEnd > pageLast ? pageStart - pageEnd + pageLast : pageStart;
+          for (let i = pageStart; i <= pageEnd; i++) {
+            if (i >= 1 && i <= pageLast) {
+                this.pageNums.push({name: i, num : i});
+            }
+          }
+
+          if (p < pageLast) {
+            this.pageNums.push({name: '›', num : p + 1});
+            this.pageNums.push({name: '»', num : pageLast});
+          }
+        }
+			},
+			mounted: function() {
+        this.render(this.pageCurrent)
+			},
+			template: `<ul>
+			  <li :class="{active: page.num == pageCurrent && page.name > 0}" @click="pageChange(page.num)" v-for="page in pageNums">{{page.name}}</li>
+			</ul>`
+		});
+		var app = new Vue({
+			el: '#app',
+			data: {
+				cities: [
+					{id: 1, name: '上海'},
+					{id: 2, name: '北京'},
+					{id: 3, name: '苏州'}
+				],
+        city: 3,
+        pageCurrent: 1
+			},
+      methods: {
+        pageClick: function(page) {
+          this.pageCurrent = page
+          console.log(this.pageCurrent)
+        }
+      }
+		});
+	</script>
+</body>
+</html>

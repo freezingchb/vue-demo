@@ -1,3 +1,5 @@
+scp dist/dist.zip root@120.27.215.54:/www/wwwroot/zhangtou/
+
 # pcstation
 
 > A Vue.js project
