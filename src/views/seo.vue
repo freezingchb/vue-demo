@@ -1,7 +1,7 @@
 <template>
   <div class="seo">
     <div class="banner">
-      <!-- <p class="tit">万词霸屏</p>
+      <!-- <p class="tit">霸屏营销</p>
       <p class="desc">0风险效果保证！承诺7个工作日，数量不达标，全额退款
         快速启动网络营销项目，时间最快，成本最低，见效快
         24小时在线， 点击不扣费
@@ -36,14 +36,14 @@
     </div>
     <div class="more">
       <dl>
-        <dt>万词霸屏</dt>
-        <dd class="em" v-text="'万词霸屏主要为企业提供便捷、高效、智能、安\n全、可监测的全搜索引擎关键词首页抢排名位的\n推广服务。\n\n帮助客户霸屏全网搜索引擎，为客户解决网络营\n销困局。'">
+        <dt>霸屏营销</dt>
+        <dd class="em" v-text="'霸屏营销主要为企业提供便捷、高效、智能、安\n全、可监测的全搜索引擎关键词首页抢排名位的\n推广服务。\n\n帮助客户霸屏全网搜索引擎，为客户解决网络营\n销困局。'">
         </dd>
       </dl>
     </div>
     <div class="why-do">
       <div class="tit">
-        <p class="txt">为什么要做万词霸屏</p>
+        <p class="txt">为什么要做霸屏营销</p>
         <p class="bottom"></p>
       </div>
       <ul class="whydo-list">

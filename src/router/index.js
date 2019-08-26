@@ -6,7 +6,7 @@ import about from "@/views/about"; //关于我们
 import help from "@/views/help"; //帮助中心
 import wechat from "@/views/wechat"; //微信营销
 import qa from "@/views/qa"; //问答营销
-import seo from "@/views/seo"; //万词霸屏
+import seo from "@/views/seo"; //霸屏营销
 import video from "@/views/video"; //视频营销
 import article from "@/views/article"; //软文营销
 import agent from "@/views/agent"; //代理营销
@@ -68,7 +68,7 @@ let router = new Router({
           name: "seo",
           component: seo,
           meta: {
-            title: "万词霸屏"
+            title: "霸屏营销"
           }
         },
         {

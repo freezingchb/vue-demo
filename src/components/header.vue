@@ -51,7 +51,7 @@ export default {
           path: "qa"
         },
         {
-          tit: "万词霸屏",
+          tit: "霸屏营销",
           path: "seo"
         },
         {
